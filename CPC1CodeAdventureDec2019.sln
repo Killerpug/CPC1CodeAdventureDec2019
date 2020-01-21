@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Challenge", "1_Challenge", "{673E7B54-8C4E-46AF-901C-AB1E9AD95541}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_FuelFormulaCalculation", "1_FuelFormulaCalculation\1_FuelFormulaCalculation.vcxproj", "{F9C78555-9E55-4D07-BA7A-254C212E89F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28E67889-6488-4043-AB7D-2F15F6342E88} = {28E67889-6488-4043-AB7D-2F15F6342E88}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_TestChallenge", "1_TestChallenge\1_TestChallenge.vcxproj", "{28E67889-6488-4043-AB7D-2F15F6342E88}"
 EndProject
