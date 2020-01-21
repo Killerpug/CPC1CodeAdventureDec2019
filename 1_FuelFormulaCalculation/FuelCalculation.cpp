@@ -15,7 +15,8 @@ int main()
     if (myData.is_open()) {
         while (myData >> line)
         {
-            total += calculateFuel(line);
+            total += recursiveFuel(line);
+            
         }
     }
     std::cout << "The total fuel needed is: ";
