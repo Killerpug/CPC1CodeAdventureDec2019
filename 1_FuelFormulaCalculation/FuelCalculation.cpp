@@ -15,8 +15,7 @@ int main()
     if (myData.is_open()) {
         while (myData >> line)
         {
-            int initialFuel = calculateFuel(line);
-            total += recursiveFuel(initialFuel);
+            total += recursiveFuel(line);
             
         }
     }
